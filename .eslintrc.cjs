@@ -12,10 +12,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { varsIgnorePattern: 'React' }
-    ]
+    'react/jsx-uses-react': 'off',
   },
   parserOptions: {
     ecmaVersion: 'latest',
